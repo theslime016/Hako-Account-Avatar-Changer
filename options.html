@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Changer Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h3>Change Avatar URLs</h3>
+    <label for="oldAvatarUrl">Old Avatar URL:</label>
+    <input type="text" id="oldAvatarUrl" placeholder="Enter old avatar URL">
+    
+    <label for="newAvatarUrl">New Avatar URL:</label>
+    <input type="text" id="newAvatarUrl" placeholder="Enter new avatar URL">
+    
+    <button id="saveChanges">Save Changes</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
